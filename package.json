@@ -4,7 +4,7 @@
   "description": "Provides API endpoints for cities data",
   "main": "server.js",
   "scripts": {
-    "start": "node_modules/.bin/json-server data/cities.json --port $PORT"
+    "start": "chmod +x node_modules/.bin/json-server && node_modules/.bin/json-server data/cities.json --port $PORT"
   },
   "keywords": [
     "backend",
