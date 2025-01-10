@@ -4,7 +4,7 @@
   "description": "Provides API endpoints for cities data",
   "main": "server.js",
   "scripts": {
-    "start": "npx json-server data/cities.json --port $PORT"
+    "start": "node_modules/.bin/json-server data/cities.json --port $PORT"
   },
   "keywords": [
     "backend",
@@ -13,7 +13,7 @@
   ],
   "author": "Diogo",
   "license": "ISC",
-  "dependencies": {
-    "json-server": "^1.0.0-beta.1"
+  "devDependencies": {
+    "json-server": "^1.0.0-beta.3"
   }
 }
